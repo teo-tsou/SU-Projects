@@ -108,18 +108,6 @@ RRU.PrbTotUl = 2237 [PRBs]
 4. Create a new measurement by modifying:
    - Files: `ran_func_kpm_subs.c`, `ran_func_kpm.c`, and `xapp_kpm_moni.c`
 
-## 2. TDD Configuration for Low-Latency
-
-Time Division Duplexing (TDD) configuration allows for optimizing latency in the network. Below are the instructions to configure TDD for low-latency scenarios.
-
-### Compile OAI
-```bash
-git clone https://gitlab.eurecom.fr/oai/openairinterface5g
-cd openairinterface5g
-git checkout develop
-cd cmake_targets
-./build_oai -c -C -w SIMU --gNB --nrUE --build-e2 --ninja
-```
 
 
 ## 2. Slicing
